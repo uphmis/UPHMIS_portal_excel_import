@@ -1,0 +1,22 @@
+{
+    "version": "1.1",
+    "name": "Dhis Web Excel Import",
+    "description": "Dhis Web Excel Import App for Libya-v30)",
+    "launch_path": "index.html",
+    "icons": {
+        "16": "img/mortar-16.png",
+        "48": "img/mortar-48.png",
+        "128": "img/mortar-128.png"
+    },
+    "developer": {
+        "name": "hisp-india",
+        "url": "http://dhis2.org"
+    },
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "*",
+			"namespace":null
+        }
+    }
+}

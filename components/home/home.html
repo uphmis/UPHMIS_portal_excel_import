@@ -1,0 +1,13 @@
+
+	<div id="logo"></div>
+	<div id="buttonsHolder">
+        <div align="center">
+		    <a href="https://nrhm-mis.nic.in/SitePages/HMISFormats.aspx" target="_blank"><b>HMIS Format</b></a>&nbsp;&nbsp;
+		    <a href="https://uphmis.in/uphmis/api/documents/MIretHLZPSE/data" target="_blank"><b>UPHMIS Format</b></a>
+        </div>
+		<div class="selButton" ng-click = "manageTemplateAction()" ng-if="superUserAccessAuthority == 'YES'"> Manage Templates </div>
+	<!--	<div class="selButton" ng-click = "dataImportAction()"> Import Data </div> -->
+		<div class="selButton" ng-click = "facilitywiseAction()"> Import Facilitywise </div>
+		<div class="selButton" ng-click = "logsAction()" ng-if="superUserAccessAuthority == 'YES'"> Logs and Statistics</div>
+		<div class="selButton" ng-click = "settingAction()" ng-if="superUserAccessAuthority == 'YES'"> Settings </div>
+	</div>
